@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="Kill or Die/Kill or Die.vcxproj" Id="e04730a3-e879-42e2-aa69-b1f097099850" />
+  <Project Path="Rooted/Rooted.vcxproj" Id="76e93485-c2f5-4ff7-b6f1-1abf155780ed" />
+</Solution>
