@@ -7,6 +7,7 @@ set(ENGINE_SOURCES
 
 add_library(RootedEngine SHARED  ${ENGINE_SOURCES})
 
-target_include_directories(RootedEngine PUBLIC include)
+target_include_directories(RootedEngine PUBLIC include ${CMAKE_CURRENT_BINARY_DIR})
 
-target_compile_definitions(RootedEngine PRIVATE ROOTED_BUILD_DLL)
+include(GenerateExportHeader)
+generate_export_header(RootedEngine)
