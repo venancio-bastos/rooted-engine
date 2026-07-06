@@ -1,4 +1,5 @@
 #pragma once
+#include "rootedengine_export.h"
 #include <iostream>
 
-__declspec(dllexport) void PrintMessage(const char* str);
+ROOTEDENGINE_EXPORT void PrintMessage(const char* str);
